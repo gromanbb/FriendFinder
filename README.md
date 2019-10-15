@@ -22,26 +22,36 @@ FriendFinder is a compatibility-based application. This full-stack site will tak
     ```
     npm install
     ```
-3. Run the FriendFinder CLI as follows:
+3. Run the [FriendFinder](https://polar-earth-08125.herokuapp.com/) CLI from the command line as follows:
 	```
 	node server.js
 	```
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Home.png)
+	![Browser](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Home.png)
 
 ### What FriendFinder does
 
 - FriendFinder will allow an user to find a best match based on the answers gathered from a survey of 10 questions versus those from other users.
 
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_a.png)
-	
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_b.png)
+  ![Survey](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_a.png)
+
+  
+
+  ![Survey](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_b.png)
+
+  
 
 - It will alert the user to complete the whole survey before submitting it.
 
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_a.png)
-	
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_b.png)
+  ![Validation](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_a.png)
+
+  
+
+  ![Validation](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_b.png)
+
+  
 
 - Immediately after the survey's submission, FriendFinder will display the name and picture of the best match.
 
-	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_BestMatch.png)
+	![Modal](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_BestMatch.png)
+	
+	

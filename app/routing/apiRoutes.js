@@ -43,8 +43,6 @@ module.exports = function(app) {
           bestMatch.photo = friendsData[i].photo;
         } 
       }
-      // ojo
-      console.log(bestMatch);
 
       friendsData.push(req.body);
       res.json(bestMatch);
