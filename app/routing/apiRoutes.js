@@ -24,10 +24,29 @@ module.exports = function(app) {
   // Then the server saves the data to the friendsData array)
   // ---------------------------------------------------------------------------
   app.post("/api/friends", function(req, res) {
-    // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
-    // It will do this by sending out the value "true" have a table
+    // Note the code here. Our "server" will respond to requests and let users know if they have a match or not.
     // req.body is available since we're using the body parsing middleware
+      const bestMatch = {
+        totalDiff: 40,
+        name: "",
+        photo: ""
+      };
+
+      for (let i = 0; i < friendsData.length; i++) {
+        let currentDiff = 0;
+        for (let j = 0; j < friendsData[i].scores.length; j++) {
+              currentDiff += Math.abs((parseInt(req.body.scores[j])) - (parseInt(friendsData[i].scores[j])));
+        }
+        if (currentDiff < bestMatch.totalDiff) {
+          bestMatch.totalDiff = currentDiff;
+          bestMatch.name = friendsData[i].name;
+          bestMatch.photo = friendsData[i].photo;
+        } 
+      }
+      // ojo
+      console.log(bestMatch);
+
       friendsData.push(req.body);
-      res.json(true);
+      res.json(bestMatch);
   });
 };
