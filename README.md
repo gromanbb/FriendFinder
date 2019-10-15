@@ -5,19 +5,14 @@ Homework 11: Node and Express Servers Assignment
 
 ### Overview
 
-FriendFinder is a text-based Command Line Interface (CLI) that allows users to execute commands for viewing the information of all products available for sale or buying products (as long as there are enough items in stock). 
+FriendFinder is a compatibility-based application. This full-stack site will take in results from an user's survey and compare the answers with those from other users. The app will then display the name and picture of the best overall match.
 
 ### Before You Begin
 
 1. The following Node.js Modules need to be installed before running FriendFinder:
 
-    - [Mysql](https://www.npmjs.com/package/mysql)
-    - [Inquirer](https://www.npmjs.com/package/inquirer)
-    - [Clear](https://www.npmjs.com/package/clear) 
-
-2. You also need to run the `FriendFinder_Seeds1.sql` script from Mysql to create the database and the products table.
-
-![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_Seeds1.png)
+    - [Express](https://www.npmjs.com/package/express)
+    - [Path](https://www.npmjs.com/package/path)
 
 ### Instructions
 
@@ -29,31 +24,24 @@ FriendFinder is a text-based Command Line Interface (CLI) that allows users to e
     ```
 3. Run the FriendFinder CLI as follows:
 	```
-	node FriendFinderCustomer.js
+	node server.js
 	```
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Home.png)
 
-​	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderCustomer.png)
+### What FriendFinder does
 
-### What each command does
+- FriendFinder will allow an user to find a best match based on the answers gathered from a survey of 10 questions versus those from other users.
 
-​		![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_Menu.png)
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_a.png)
+	
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Survey_b.png)
 
-- FriendFinder will display a list of products available for sale, including their IDs, names, prices and remaining quantities.
+- It will alert the user to complete the whole survey before submitting it.
 
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_View.png)
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_a.png)
+	
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_Validation_b.png)
 
-- It will allow the user to choose a product and specify how many units to buy.
+- Immediately after the survey's submission, FriendFinder will display the name and picture of the best match.
 
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_BuyProd.png)
-
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_BuyQty.png)
-
-- If the quantity ordered is less than what is currently in stock, FriendFinder will let the user know that the order has been placed and will display the total cost. It will also update the stock to reflect the quantity remaining after the purchase.
-
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_PO.png)
-
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_productsTable.png)
-
-- Otherwise, FriendFinder will notify the user that the quantity ordered is insufficient.
-
-  ![Demo](https://github.com/gromanbb/FriendFinder/blob/master/images/FriendFinderC_NoStock.png)
+	![Demo](https://github.com/gromanbb/FriendFinder/blob/master/demo/FriendFinder_BestMatch.png)
