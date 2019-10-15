@@ -322,73 +322,72 @@ const friendsArray = [
       "3",
       "1"
     ],
-    {
-      "name": "Robert Downey Jr.",
-      "photo": "https://media.gettyimages.com/photos/robert-downey-jr-and-don-cheadle-speak-onstage-during-marvel-studios-picture-id1135641591?k=6&m=1135641591&s=612x612&w=0&h=ELQ3lyXr5H-6een3UxlFama9LpMsmkDyuQ2Ng_3374w=",
-      "scores": [
-        "2",
-        "3",
-        "3",
-        "4",
-        "1",
-        "3",
-        "3",
-        "2",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "name": "Jude Law",
-      "photo": "https://media.gettyimages.com/photos/jude-law-attends-the-captain-marvel-european-gala-held-at-the-curzon-picture-id1132584005?k=6&m=1132584005&s=612x612&w=0&h=PcQndF1QdfUyRHvHZ7NXutvORNrCOE8DhXNlVAKZ7Qs=",
-      "scores": [
-        "2",
-        "2",
-        "2",
-        "3",
-        "3",
-        "2",
-        "2",
-        "2",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "name": "Gwyneth Paltrow",
-      "photo": "https://media.gettyimages.com/photos/actress-gwyneth-paltrow-arrives-for-the-world-premiere-of-marvel-picture-id1138768992?k=6&m=1138768992&s=612x612&w=0&h=QwvdMNYCD6E4wbxOXf_R4xu0-Pa8s9dk_qzNAohMxQY=",
-      "scores": [
-        "5",
-        "5",
-        "5",
-        "5",
-        "5",
-        "5",
-        "5",
-        "5",
-        "5",
-        "5"
-      ]
-    },
-    {
-      "name": "Chris Evans",
-      "photo": "https://media.gettyimages.com/photos/chris-evans-attends-the-world-premiere-of-walt-disney-studios-motion-picture-id1138768603?k=6&m=1138768603&s=612x612&w=0&h=0xYagYHwUpEM-s7Zh3lGVryq-qZZo4lXi8a8bqCJXeM=",
-      "scores": [
-        "1",
-        "2",
-        "1",
-        "1",
-        "3",
-        "2",
-        "2",
-        "2",
-        "2",
-        "2"
-      ]
-    }
+  },
+  {
+    "name": "Robert Downey Jr.",
+    "photo": "https://media.gettyimages.com/photos/robert-downey-jr-and-don-cheadle-speak-onstage-during-marvel-studios-picture-id1135641591?k=6&m=1135641591&s=612x612&w=0&h=ELQ3lyXr5H-6een3UxlFama9LpMsmkDyuQ2Ng_3374w=",
+    "scores": [
+      "2",
+      "3",
+      "3",
+      "4",
+      "1",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2"
+    ]
+  },
+  {
+    "name": "Jude Law",
+    "photo": "https://media.gettyimages.com/photos/jude-law-attends-the-captain-marvel-european-gala-held-at-the-curzon-picture-id1132584005?k=6&m=1132584005&s=612x612&w=0&h=PcQndF1QdfUyRHvHZ7NXutvORNrCOE8DhXNlVAKZ7Qs=",
+    "scores": [
+      "2",
+      "2",
+      "2",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ]
+  },
+  {
+    "name": "Gwyneth Paltrow",
+    "photo": "https://media.gettyimages.com/photos/actress-gwyneth-paltrow-arrives-for-the-world-premiere-of-marvel-picture-id1138768992?k=6&m=1138768992&s=612x612&w=0&h=QwvdMNYCD6E4wbxOXf_R4xu0-Pa8s9dk_qzNAohMxQY=",
+    "scores": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5"
+    ]
+  },
+  {
+    "name": "Chris Evans",
+    "photo": "https://media.gettyimages.com/photos/chris-evans-attends-the-world-premiere-of-walt-disney-studios-motion-picture-id1138768603?k=6&m=1138768603&s=612x612&w=0&h=0xYagYHwUpEM-s7Zh3lGVryq-qZZo4lXi8a8bqCJXeM=",
+    "scores": [
+      "1",
+      "2",
+      "1",
+      "1",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ]
   }
 ];
 
 // Export array to make it accessible to other files using require.
 module.exports = friendsArray;
-  
